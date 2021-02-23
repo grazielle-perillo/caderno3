@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image:url(https://static8.depositphotos.com/1457895/952/v/950/depositphotos_9529877-stock-illustration-books-background.jpg);
+    background-attachment:fixed;
+    background-size: contain;
+}
+section {
+    padding-top:14px;
+}
+footer a {
+    color: azure;
+}
+
+p {
+    text-align: center;
+}

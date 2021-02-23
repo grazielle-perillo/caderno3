@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    color: cornsilk;
+}
+nav{
+    background-color: rgb(56, 88, 152);
+    justify-content: space-around;
+}
+#menu {
+    background-color: rgb(56, 88, 152);
+    border: solid  rgb(35, 35, 129) 1px;
+    color: white;
+}
+h5 {
+    color: rgb(124, 126, 123);
+}

@@ -1,0 +1,17 @@
+textarea {
+    resize: vertical;
+    font-size: 20px;
+}
+input.focus {
+    background-color: rgba(25, 95, 170);
+}
+body {
+    background-color:rgb(162, 185, 226);
+    font-family: 'Courier New', Courier, monospace;
+}
+button:hover {
+    font-size:15px;
+}
+input:active {
+    background-color:rgb(23, 87, 95) ;
+}

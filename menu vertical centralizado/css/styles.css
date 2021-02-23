@@ -1,0 +1,55 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contain-menu {
+    padding: 0%;
+    border: solid; color: black; size: 5px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width:800px;
+    height:400px;
+}
+.contain-menu li {
+    height: 100px;
+    width: 350px;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+.contain-menu li a {
+    width: 200px;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(49, 48, 48);
+    font-size: 22px;
+}
+.contain-menu .icon::before {
+    position: absolute;
+    margin-right: 150px;
+}
+.contain-menu .joana::before {
+    content: url("./../imagens/user.png");
+}
+.contain-menu .patricia::before {
+    content: url("./../imagens/user.png");
+}
+.contain-menu .frederico::before {
+    content: url("./../imagens/user.png");
+}
+
+li:hover{
+    background-color: rgb(212, 206, 179);
+}
+
+

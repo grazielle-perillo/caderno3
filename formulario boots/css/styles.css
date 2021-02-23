@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+#navbarDropdownMenuLink{
+    color:#fff;
+}
+.btn-outline-primary{
+    border: solid #ced4da 1px;
+    color: #5f6468;
+}
+footer {
+    color: #7e868b;
+    text-align: left;
+  }
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

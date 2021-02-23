@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulário</title>
+        <link href="css/styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <h1>Formulário de Contato</h1>
+            <hr>
+            <form action=”script.php” method=”post”>
+                <label>Nome:</label>
+                <input type=”text” 	name=”nome”	 placeholder="Digite seu nome"required/>
+                <label>Sobrenome:</label>
+                <input type=”text” 	name=”sobrenome”	 placeholder="Digite seu sobrenome"required/>
+                <label>E-mail:</label>
+                <input type="email" name="email" placeholder="Digite seu email" />
+
+                <br><br>
+                <label>Genêro:</label>
+                <input type="radio" name="genero" value="feminino">
+                <label>feminino</label>
+                <input type="radio" name="genero" value="Masculino">
+                <label>Masculino</label>
+                
+                <br><br>
+                <label>Passatempos:</label>
+                <input type="checkbox" name="hobbies" value="livros">
+                <label>livros</label>
+                <input type="checkbox" name="hobbies" value="esportes">
+                <label>esportes</label>
+                <input type="checkbox" name="hobbies" value="música">
+                <label>música</label>
+                <input type="checkbox" name="hobbies" value="lazer">
+                <label>lazer</label>
+                <input type="checkbox" name="hobbies" value="jogos">
+                <label>jogos</label>
+
+                <br><br>
+                <label>Motivo da mensagem:</label>
+                <select>
+                    <optgroup  label="Assunto da mensagem">
+                        <option> Dúvidas</option> 
+                        <option> Sugestões</option>
+                        <option> Reclamações</option>
+                    </optgroup> 
+                </select>
+
+                <br><br>
+                <label>Deixe seu comentário:</label>
+                <br>
+                <textarea name="mensagem" placeholder="Digite sua mensagem" required > </textarea>
+                <br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Excluir</button>
+            </form>
+        </header>
+    </body>
+</html>
